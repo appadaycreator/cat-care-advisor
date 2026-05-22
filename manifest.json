@@ -1,0 +1,8 @@
+{
+  "name": "Cat Care Advisor",
+  "short_name": "cat-care-adv",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6366f1"
+}

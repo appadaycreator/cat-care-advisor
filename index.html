@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猫の飼育・ケア診断【無料】無料診断・アドバイス</title>
+    <meta name="description" content="猫の年齢・品種・生活環境から最適なケア方法と必要な費用を診断。登録不要・完全無料でご利用いただけます。">
+    <link rel="canonical" href="https://appadaycreator.github.io/cat-care-advisor/">
+    <meta property="og:title" content="猫の飼育・ケア診断【無料】無料診断・アドバイス">
+    <meta property="og:description" content="猫の年齢・品種・生活環境から最適なケア方法と必要な費用を診断。登録不要・完全無料でご利用いただけます。">
+    <meta property="og:url" content="https://appadaycreator.github.io/cat-care-advisor/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐱</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <link rel="dns-prefetch" href="https://www.clarity.ms">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <!-- GTM -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TXQGZRF9');</script>
+    <!-- Clarity -->
+    <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","s3t9vl8h3v");</script>
+    <!-- AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8427583028015858" crossorigin="anonymous"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"猫の飼育・ケア診断","description":"猫の年齢・品種・生活環境から最適なケア方法と必要な費用を診断。登録不要・完全無料でご利用いただけます。","url":"https://appadaycreator.github.io/cat-care-advisor/","applicationCategory":"UtilityApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"JPY"}}</script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', 'Noto Sans JP', sans-serif; background: linear-gradient(135deg, #FFEDD5 0%, #FFF7ED 100%); min-height: 100vh; color: #333; line-height: 1.6; }
+        .site-header { background: #F97316; color: white; padding: 32px 20px; text-align: center; }
+        .site-header .emoji { font-size: 52px; margin-bottom: 8px; }
+        .site-header h1 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+        .site-header p { font-size: 14px; opacity: 0.9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 16px; }
+        .card { background: white; border-radius: 16px; padding: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); margin-bottom: 16px; }
+        .btn { background: #F97316; color: white; border: none; padding: 14px 24px; border-radius: 10px; font-size: 16px; font-weight: 600; cursor: pointer; width: 100%; transition: opacity .2s; }
+        .btn:hover { opacity: 0.9; }
+        .btn:active { transform: scale(0.98); }
+        input, select, textarea { width: 100%; padding: 10px 14px; border: 1.5px solid #e2e8f0; border-radius: 8px; font-size: 15px; margin-top: 4px; font-family: inherit; }
+        input:focus, select:focus { outline: none; border-color: #F97316; }
+        label { font-size: 13px; font-weight: 600; color: #555; display: block; margin-top: 14px; margin-bottom: 2px; }
+        .result { display: none; }
+        .result.show { display: block; }
+        .result-value { font-size: 36px; font-weight: 700; color: #F97316; text-align: center; padding: 16px 0; }
+        .badge { display: inline-block; background: #F9731620; color: #F97316; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+        /* ── サービス固有CSS ── */
+        .option-btn { width:100%;padding:12px;border:2px solid #e2e8f0;border-radius:10px;
+          font-size:14px;cursor:pointer;background:#fff;text-align:left;transition:.15s;margin-bottom:6px; }
+        .option-btn:hover,.option-btn.selected { border-color:#F97316;background:#FFEDD5; }
+        .progress-bar { height:4px;border-radius:2px;transition:width .3s ease;background:#F97316; }
+        .care-box { background:#FFEDD5;border-left:4px solid #F97316;border-radius:6px;padding:10px 14px;
+          font-size:13px;color:#9a3412;margin-top:10px;line-height:1.7; }
+        .r-point { font-size:13px;color:#9a3412;margin-bottom:4px; }
+        .cost-badge { display:inline-block;background:#F97316;color:#fff;border-radius:12px;
+          padding:2px 10px;font-size:12px;font-weight:700;margin-left:6px; }
+    </style>
+</head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXQGZRF9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <header class="site-header">
+        <div class="emoji">🐱</div>
+        <h1>猫の飼育・ケア診断</h1>
+        <p>猫の年齢・品種・生活環境から最適なケア方法と必要な費用を診断。</p>
+    </header>
+
+    <main class="container">
+        <ins class="adsbygoogle" style="display:block;margin:12px 0" data-ad-client="ca-pub-8427583028015858" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+        <div id="quiz-start" class="card">
+          <h2 style="font-size:18px;font-weight:700;margin-bottom:12px;">🐱 猫の飼育・ケア診断</h2>
+          <p style="color:#666;font-size:14px;margin-bottom:8px;">あなたの猫ちゃんの状況を答えると最適なケアプランをアドバイスします</p>
+          <ul style="font-size:13px;color:#64748b;margin:0 0 16px 16px;line-height:1.8;">
+            <li>質問数：6問</li>
+            <li>所要時間：約1分</li>
+            <li>完全無料・登録不要</li>
+          </ul>
+          <button class="btn" onclick="startQuiz()">診断スタート →</button>
+        </div>
+
+        <div id="quiz-area" style="display:none;" class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+            <span style="font-size:12px;color:#64748b;">質問 <span id="q-num">1</span> / <span id="q-total">6</span></span>
+            <span style="font-size:12px;color:#F97316;font-weight:700;" id="q-category"></span>
+          </div>
+          <div style="background:#f1f5f9;border-radius:4px;height:6px;margin-bottom:16px;">
+            <div class="progress-bar" id="q-bar" style="width:16.6%;"></div>
+          </div>
+          <p id="q-text" style="font-size:16px;font-weight:600;margin-bottom:16px;line-height:1.5;"></p>
+          <div id="q-options"></div>
+        </div>
+
+        <div class="result" id="result">
+          <div class="card">
+            <div style="font-size:2rem;text-align:center;margin-bottom:8px;" id="r-emoji">🐱</div>
+            <h3 id="r-title" style="font-size:18px;font-weight:700;color:#F97316;margin-bottom:8px;text-align:center;"></h3>
+            <p id="r-desc" style="font-size:14px;color:#475569;line-height:1.7;"></p>
+            <div class="care-box" id="r-care"></div>
+            <div id="r-points" style="margin-top:12px;"></div>
+            <button class="btn" style="margin-top:16px;" onclick="location.reload()">もう一度診断する</button>
+          </div>
+        </div>
+
+        <!-- 関連サービス -->
+        <div class="card" style="margin-top:8px;">
+            <h3 style="font-size:13px;font-weight:600;color:#888;margin-bottom:10px;">🔗 関連サービス</h3>
+            <div style="display:flex;flex-direction:column;gap:6px;">
+                <a href="https://appadaycreator.github.io/pet-care-cost-simulator/" style="color:#6366f1;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">ペット飼育費用シミュレーター →</a>
+                <a href="https://appadaycreator.github.io/pet-food-advisor/" style="color:#6366f1;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">ペットフード・用品診断 →</a>
+                <a href="https://appadaycreator.github.io/pet-insurance-check/" style="color:#6366f1;font-size:13px;text-decoration:none;padding:6px 0;border-bottom:1px solid #f1f5f9;">Pet Insurance Check →</a>
+            </div>
+        </div>
+
+        <ins class="adsbygoogle" style="display:block;margin:12px 0" data-ad-client="ca-pub-8427583028015858" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </main>
+
+    <footer style="text-align:center;padding:20px;color:white;font-size:12px;opacity:0.75;margin-top:8px;">
+        <p><a href="https://appadaycreator.github.io/" style="color:white;">AppADayCreator</a>
+        | <a href="privacy-policy.html" style="color:white;">プライバシーポリシー</a>
+        | <a href="terms.html" style="color:white;">利用規約</a>
+        | <a href="contact.html" style="color:white;">お問い合わせ</a></p>
+        <p style="margin-top:6px;">© 2025 AppADayCreator. All services are free.</p>
+    </footer>
+
+    <script>
+    const QUESTIONS = [
+      { text:'猫の年齢はどのくらいですか？', category:'基本情報',
+        opts:['子猫（0〜1歳）','若猫（1〜7歳）','シニア猫（7〜12歳）','老猫（12歳以上）'] },
+      { text:'飼育環境はどちらですか？', category:'生活環境',
+        opts:['完全室内飼い（1匹）','完全室内飼い（多頭）','室内外両方','半屋外・庭あり'] },
+      { text:'現在の食事はどれですか？', category:'食事・健康',
+        opts:['ドライフード中心','ウェットフード中心','ドライ＋ウェット混合','手作り食・療法食'] },
+      { text:'毛の長さや被毛のタイプは？', category:'グルーミング',
+        opts:['短毛（スコ・アメショなど）','長毛（メインクーンなど）','中毛・セミロング','ほぼ無毛（スフィンクスなど）'] },
+      { text:'気になる健康・行動のサインは？', category:'健康',
+        opts:['特に問題なし','食欲・体重の変化が気になる','毛並み・皮膚が気になる','活動量・遊び方の変化が気になる'] },
+      { text:'ペット保険はどうしていますか？', category:'費用管理',
+        opts:['加入済み（安心）','検討中','入っていない（貯金対応）','高齢で加入できず'] },
+    ];
+
+    const RESULTS = {
+      kitten: {
+        emoji:'🐣',
+        title:'子猫ケアプラン〜しっかり基礎を作る時期〜',
+        desc:'0〜1歳は免疫・筋骨格の形成が進む重要な時期です。ワクチン・避妊去勢・適切な栄養でしっかり土台を作りましょう。',
+        care:'🍼 高タンパク子猫用フードを1日3〜4回に分けて給餌。生後3〜4ヶ月でワクチン接種、6ヶ月前後で避妊去勢手術を検討してください。',
+        points:['✅ 子猫用フードを1歳まで継続（成猫用はNG）','✅ ワクチン・ノミダニ予防を定期的に','✅ おもちゃで毎日最低15分は運動・社会化を'],
+        cost:'月約3,000〜8,000円',
+      },
+      adult: {
+        emoji:'😺',
+        title:'成猫ケアプラン〜バランスの良い維持管理〜',
+        desc:'1〜7歳は健康の黄金期。定期健診・適切な運動・バランスのよい食事で長く健康を保ちましょう。肥満は万病の元です。',
+        care:'🐾 体重管理が最重要ポイント。理想体重から±10%以内を目標に。年1回の健康診断と定期的な歯みがき習慣をつけましょう。',
+        points:['✅ 年1回の健康診断（血液検査含む）','✅ 歯みがきを週3回以上の習慣に','✅ 体重を月1回計測・肥満チェック'],
+        cost:'月約4,000〜10,000円',
+      },
+      senior: {
+        emoji:'🧡',
+        title:'シニア猫ケアプラン〜早期発見と関節ケアを重視〜',
+        desc:'7歳以降は腎臓病・甲状腺機能亢進症・関節炎のリスクが高まります。半年に1回の健診と食事管理が長寿の秘訣です。',
+        care:'💊 シニア用低リン・低タンパクフードへの移行を検討。トイレは段差の低いものに変え、複数箇所に設置して関節への負担を減らしましょう。',
+        points:['✅ 半年に1回の健康診断（腎機能・甲状腺チェック）','✅ トイレ・食器の高さを体に合わせて調整','✅ 急な体重減少・飲水量増加に注意'],
+        cost:'月約6,000〜15,000円',
+      },
+      elderly: {
+        emoji:'👴',
+        title:'老猫ケアプラン〜快適な暮らしと緩和ケア〜',
+        desc:'12歳以上は慢性疾患との付き合いが始まる年齢です。痛みのサインを見逃さず、快適な生活環境を整えることが最優先です。',
+        care:'🏥 定期通院（2〜3ヶ月ごと）が基本。床暖房・ペット用ベッドで関節を温め、段差をなくして移動しやすい環境を整えてください。',
+        points:['✅ かかりつけ医との定期コミュニケーションを密に','✅ 暖かく段差のない快適な寝床を確保','✅ 食欲・排泄・水飲み量を毎日記録'],
+        cost:'月約8,000〜20,000円以上',
+      },
+    };
+
+    let cur=0, ageGroup='adult', typeScore={kitten:0, adult:0, senior:0, elderly:0};
+
+    function startQuiz() {
+      cur=0; typeScore={kitten:0, adult:0, senior:0, elderly:0};
+      document.getElementById('quiz-start').style.display='none';
+      document.getElementById('quiz-area').style.display='block';
+      document.getElementById('q-total').textContent = QUESTIONS.length;
+      renderQ();
+    }
+
+    function renderQ() {
+      const q = QUESTIONS[cur];
+      document.getElementById('q-num').textContent = cur + 1;
+      document.getElementById('q-bar').style.width = ((cur+1)/QUESTIONS.length*100) + '%';
+      document.getElementById('q-category').textContent = q.category;
+      document.getElementById('q-text').textContent = q.text;
+      document.getElementById('q-options').innerHTML = q.opts.map((o,i) =>
+        `<button class="option-btn" onclick="answer(${i})">${o}</button>`
+      ).join('');
+    }
+
+    function answer(idx) {
+      // 最初の質問（年齢）で主タイプを決定、他はスコアで補正
+      if (cur === 0) {
+        const ageMap = ['kitten','adult','senior','elderly'];
+        ageGroup = ageMap[idx];
+        typeScore[ageGroup] += 3;
+      } else {
+        // 多頭・室外 → senior/elderly 寄りの注意が必要
+        const maps = [
+          ['adult','adult','senior','senior'],
+          ['adult','adult','kitten','adult'],
+          ['adult','senior','senior','elderly'],
+          ['adult','adult','adult','adult'],
+          ['adult','senior','adult','senior'],
+        ];
+        if (cur-1 < maps.length) {
+          const key = maps[cur-1][idx];
+          typeScore[key]++;
+        }
+      }
+      cur++;
+      if (cur >= QUESTIONS.length) { showResult(); return; }
+      renderQ();
+    }
+
+    function showResult() {
+      document.getElementById('quiz-area').style.display='none';
+      // 年齢スコアを最優先しつつ、他の回答でも補正
+      const best = Object.entries(typeScore).sort((a,b)=>b[1]-a[1])[0][0];
+      const r = RESULTS[best];
+      document.getElementById('r-emoji').textContent = r.emoji;
+      document.getElementById('r-title').textContent = r.title;
+      document.getElementById('r-desc').textContent  = r.desc;
+      document.getElementById('r-care').innerHTML    = r.care + '<br><span style="font-size:12px;">目安費用：</span><span class="cost-badge">' + r.cost + '</span>';
+      document.getElementById('r-points').innerHTML  = r.points.map(p=>`<p class="r-point">${p}</p>`).join('');
+      document.getElementById('result').classList.add('show');
+    }
+    </script>
+</body>
+</html>
